@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    let array = [];
+    const arrayIsi = ["satu", "dua", "tiga", 2];
+
+    console.log("INI ARRAY KOSONG", array);
+    console.log("INI ARRAY ISI", arrayIsi);
+
+    array.push("apple");
+    console.log("INI ARRAY KOSONG", array);
+
+    arrayIsi[0] = "sembilan";
+    console.table(arrayIsi);
+
+    delete arrayIsi[3];
+    console.table(arrayIsi);
+    console.log(arrayIsi.length);
+
+    console.table(arrayIsi.concat(array));
+    console.log(arrayIsi.includes("dua"));
+    console.log(arrayIsi.join("--------"));
+    console.log("index 3", arrayIsi[2]);
+
+
+
+</script>
+</html>

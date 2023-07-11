@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object</title>
+  </head>
+  <body></body>
+  <script>
+
+    let person = {
+      npk: 191610469,
+      nama: "Danniel",
+      alamat: "Babarsari",
+      tanggal_lahir: "2000-05-22",
+      project: "Website virtual siuajy.com",
+      jumlah_project: 1,
+      produktivitas: 100,
+    };
+
+    person.npk = 191610469; 
+    person.nama = "Danniel";
+    person.alamat = "Babarsari";
+    person.tanggal_lahir = "2000-05-22";
+    person.project = ["B2B ACCME", "Maintenace BJJ"];
+    person.jumlahproject = person.project.length;
+    person.produktivitas = [100, 100, 100];
+
+
+    person.project.push("Setri Kanan Mobile", "Fixing CMS"); 
+
+
+    person.project.splice(1, 1); 
+
+
+    person.produktivitas[0] = (30 / 30) * person.produktivitas[0];
+    person.produktivitas[1] = (25 / 30) * person.produktivitas[1];
+
+ 
+  </script>
+</html>
+
+
